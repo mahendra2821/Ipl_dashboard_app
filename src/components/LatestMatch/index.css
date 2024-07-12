@@ -1,0 +1,42 @@
+/* Write your CSS here */
+.latest-match-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 60%;
+  padding: 30px;
+}
+
+.team-logo {
+  width: 200px;
+  height: 200px;
+}
+
+.lm-heading {
+  font-size: 22px;
+}
+
+@media screen and (max-width: 768px) {
+  .latest-match-container {
+    width: 96%;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #1e293b;
+    border-radius: 15px;
+    align-items: flex-start;
+    margin-top: 10px;
+  }
+
+  .team-logo {
+    width: 40px;
+    height: 40px;
+  }
+
+  .lm-heading {
+    font-size: 16px;
+  }
+  .desc {
+    font-size: 13px;
+    color: #ffffff80;
+  }
+}

@@ -1,0 +1,52 @@
+/* Write your CSS here */
+.team-item {
+  display: flex;
+  width: 80%;
+  color: #ffffff;
+  height: 150px;
+  align-items: center;
+  justify-content: space-around;
+  margin: 10px;
+  background-color: #ffffff33;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.team-logo-home {
+  width: 100px;
+  height: 110px;
+}
+
+.heading {
+  font-size: 20px;
+}
+
+.team-link {
+  text-decoration: none;
+  width: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  .team-item {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff33;
+    height: 85%;
+    border-radius: 12px;
+    border: 1px solid #ffffff;
+    padding-left: 7px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 7px;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-bottom: 24px;
+  }
+  .team-logo-home {
+    max-width: 40px;
+    height: 40px;
+  }
+  .heading {
+    font-size: 15px;
+  }
+}
